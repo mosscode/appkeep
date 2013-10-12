@@ -57,7 +57,7 @@ import com.moss.appkeep.api.endorse.JarsignEndorsement;
 import com.moss.appkeep.api.endorse.x509.X509CertId;
 import com.moss.appkeep.server.data.Data;
 import com.moss.launch.components.ComponentType;
-import com.moss.saturn.lobstore.LobStore;
+import com.moss.lobstore.LobStore;
 import com.sleepycat.je.LockMode;
 
 /**

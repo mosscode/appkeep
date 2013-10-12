@@ -115,8 +115,8 @@ import com.moss.launch.components.ComponentHandleVisitor;
 import com.moss.launch.components.ComponentType;
 import com.moss.launch.components.MavenCoordinatesHandle;
 import com.moss.launch.components.Md5ComponentHandle;
+import com.moss.lobstore.LobStore;
 import com.moss.rpcutil.proxy.ProxyFactory;
-import com.moss.saturn.lobstore.LobStore;
 import com.sleepycat.je.LockMode;
 import com.sleepycat.je.Transaction;
 

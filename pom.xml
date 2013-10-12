@@ -111,7 +111,7 @@
 		<dependency>
 			<groupId>com.moss.diff</groupId>
 			<artifactId>diff-wrapper</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.2-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -147,7 +147,7 @@
 	</dependencyManagement>
 	
 	<properties>
-		<rpcutil-version>0.0.1</rpcutil-version>
+		<rpcutil-version>0.0.2-SNAPSHOT</rpcutil-version>
 		<java-launch-version>0.0.1-SNAPSHOT</java-launch-version>
 	</properties>
 </project>

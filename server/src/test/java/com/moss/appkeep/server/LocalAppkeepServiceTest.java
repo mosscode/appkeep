@@ -55,8 +55,8 @@ import com.moss.identity.standard.Password;
 import com.moss.identity.standard.PasswordProofRecipie;
 import com.moss.identity.tools.IdProover;
 import com.moss.identity.tools.IdTool;
-import com.moss.saturn.lobstore.LobStore;
-import com.moss.saturn.lobstore.impl.LocalDiskLobStore;
+import com.moss.lobstore.LobStore;
+import com.moss.lobstore.impl.LocalDiskLobStore;
 
 public class LocalAppkeepServiceTest extends AbstractAppkeepServiceTest<AppkeepServiceImpl> {
 	private static final SimpleId ADMIN_LOGON = new SimpleId("mr-sys-admin");

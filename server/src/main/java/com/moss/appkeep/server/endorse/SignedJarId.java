@@ -42,7 +42,7 @@ import java.util.UUID;
 
 import javax.xml.bind.annotation.XmlValue;
 
-import com.moss.saturn.lobstore.LobId;
+import com.moss.lobstore.LobId;
 
 @SuppressWarnings("serial")
 public class SignedJarId implements Serializable {

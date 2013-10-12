@@ -53,7 +53,7 @@ import com.moss.launch.components.ComponentHandle;
 import com.moss.launch.components.ComponentType;
 import com.moss.launch.components.MavenCoordinatesHandle;
 import com.moss.launch.components.Md5ComponentHandle;
-import com.moss.saturn.lobstore.LobId;
+import com.moss.lobstore.LobId;
 
 @XmlRootElement
 public class StoredComponent {
