@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2013, Moss Computing Inc.
+
+    This file is part of appkeep.
+
+    appkeep is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2, or (at your option)
+    any later version.
+
+    appkeep is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with appkeep; see the file COPYING.  If not, write to the
+    Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+    02110-1301 USA.
+
+    Linking this library statically or dynamically with other modules is
+    making a combined work based on this library.  Thus, the terms and
+    conditions of the GNU General Public License cover the whole
+    combination.
+
+    As a special exception, the copyright holders of this library give you
+    permission to link this library with independent modules to produce an
+    executable, regardless of the license terms of these independent
+    modules, and to copy and distribute the resulting executable under
+    terms of your choice, provided that you also meet, for each linked
+    independent module, the terms and conditions of the license of that
+    module.  An independent module is a module which is not derived from
+    or based on this library.  If you modify this library, you may extend
+    this exception to your version of the library, but you are not
+    obligated to do so.  If you do not wish to do so, delete this
+    exception statement from your version.
+
+-->
+<java-application-spec>
+    <main-class>com.moss.launch.mojo.TestMain</main-class>
+    <std-vm-settings>
+        <Xmx>256m</Xmx>
+        <Xms>100m</Xms>
+    </std-vm-settings>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.launch.spec</groupId>
+            <artifactId>java-launch-spec</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.launch.components</groupId>
+            <artifactId>java-launch-components</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.launch.tools</groupId>
+            <artifactId>java-launch-tools</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.launch.introspect</groupId>
+            <artifactId>java-launch-introspect</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-project</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-settings</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-model</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>1.5.15</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-interpolation</artifactId>
+            <version>1.11</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-container-default</artifactId>
+            <version>1.0-alpha-9-stable-1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.2</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>classworlds</groupId>
+            <artifactId>classworlds</artifactId>
+            <version>1.1-alpha-2</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-profile</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact-manager</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-repository-metadata</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-provider-api</artifactId>
+            <version>1.0-beta-6</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>backport-util-concurrent</groupId>
+            <artifactId>backport-util-concurrent</artifactId>
+            <version>3.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-registry</artifactId>
+            <version>2.2.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.jaxbhelper</groupId>
+            <artifactId>jaxb-helper</artifactId>
+            <version>0.0.2</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.0.4</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.0</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jsr173_api</artifactId>
+            <version>1.0</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.diff</groupId>
+            <artifactId>diff-wrapper</artifactId>
+            <version>0.0.1</version>
+        </maven-artifact>
+    </component>
+    <component>
+        <type>JAR</type>
+        <maven-artifact>
+            <groupId>com.moss.launch.mojo</groupId>
+            <artifactId>java-launch-mojo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </maven-artifact>
+    </component>
+    <profile>
+        <name>Modern Java Launch</name>
+        <std-vm-settings>
+            <Xmx>256m</Xmx>
+            <Xms>100m</Xms>
+        </std-vm-settings>
+        <selector>
+            <os>
+                <product>ubuntu-8.04</product>
+                <feature-variant>client</feature-variant>
+                <hw-variant>i686</hw-variant>
+            </os>
+            <os-flavor>unix</os-flavor>
+            <java-platform>*</java-platform>
+            <vm>
+                <vendor>sun</vendor>
+                <version>1.6u10</version>
+            </vm>
+            <cpu-isa>x86</cpu-isa>
+            <cpu-isa>mmx</cpu-isa>
+        </selector>
+    </profile>
+    <component-bundle>
+        <name>Nomad Update - 2009-12-02</name>
+	    <component>
+	        <type>JAR</type>
+	        <maven-artifact>
+	            <groupId>com.moss.diff</groupId>
+	            <artifactId>diff-wrapper</artifactId>
+	            <version>0.0.1</version>
+	        </maven-artifact>
+	    </component>
+    </component-bundle>
+</java-application-spec>
